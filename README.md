@@ -22,3 +22,20 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Process for creating articles
+
+- Create a branch to do
+- write feature test
+- build feature to make the test pass
+- merge branch with master
+
+
+- Visit root page
+- click on new article link
+- fill in title
+- fill in body
+- create article
+
+- Article has been created
+- articles path
