@@ -1,6 +1,5 @@
 <h3 class="text-center">Adding New Article</h3>
 
-
 <div class="row">
   <div class="col-md-12">
     <%= form_for(@article, :html => {class: "form-horisontal", role: "form"}) do |f| %>
@@ -9,7 +8,7 @@
           <%= f.label :title %>
         </div>
         <div class="col-md-11">
-          <%= f.text_field :title, class: "form-controll", placeholder: "Title of article", aoutofocus: true %>
+          <%= f.text_field :title, class: "form-control", placeholder: "Title of article", aoutofocus: true %>
         </div>
       </div>
 
@@ -18,7 +17,7 @@
           <%= f.label :body %>
         </div>
         <div class="col-md-11">
-          <%= f.text_field :body, rows: 10, class: "form-horisontal", placeholder: "Body of article" %>
+          <%= f.text_area :body, rows: 10, class: "form-control", placeholder: "Body of article" %>
         </div>
       </div>
 
