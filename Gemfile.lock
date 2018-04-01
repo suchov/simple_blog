@@ -275,9 +275,9 @@ DEPENDENCIES
   byebug
   capybara (= 2.7.1)
   coffee-rails (~> 4.1.0)
-  guard (~> 2.14.0)
+  guard (~> 2.14.2)
   guard-cucumber (~> 2.1.2)
-  guard-rspec (~> 4.7.2)
+  guard-rspec (~> 4.7, >= 4.7.3)
   jbuilder (~> 2.0)
   jquery-rails
   puma
