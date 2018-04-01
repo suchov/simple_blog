@@ -1,9 +1,6 @@
-## README
-
-Listing articles feature test
+Show article feature test
 
 - create branch
-- create 2 articles to display
+- create 1 article to display
 
-- list the two Articles
-- expect both articles title and body to be present
+- show article on separate page(title and details)
