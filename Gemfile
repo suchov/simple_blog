@@ -52,6 +52,7 @@ group :development do
   gem 'guard', '~> 2.14.2'
   gem 'guard-rspec', '~> 4.7', '>= 4.7.3'
   gem 'guard-cucumber', '~> 2.1.2'
+  gem 'rubocop'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
