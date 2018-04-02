@@ -1,6 +1,20 @@
-Show article feature test
+User sign-up
 
-- create branch
-- create 1 article to display
+- topic banch
+- create spec
 
-- show article on separate page(title and details)
+Signing up users:
+- visit root rout
+- click on sign-up link
+- fill in email
+- fill in password
+- fill in password confirmation
+- click on sign-up link
+
+
+Invalid signup:
+- visit root rout
+- click on sign-up link
+- fill in email with blank field
+- fill in password with blank field
+- ensure that it fails
