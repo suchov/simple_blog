@@ -69,12 +69,14 @@ RSpec.describe 'Articles', type: :request do
 
     context 'with signed in user who is owner' do
       before do
-        expect(Article.count).to eq 1
         login_as @john
         delete "/articles/#{@article.id}"
       end
 
       it 'successfully delete article' do
+        expect(response.status).to eq 302
+        flash_message = 'Article has been deleted'
+        expect(flash[:success]).to eq flash_message
         expect(Article.count).to eq 0
       end
     end

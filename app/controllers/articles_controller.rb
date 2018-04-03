@@ -59,13 +59,6 @@ class ArticlesController < ApplicationController
       end
     end
   end
-    # if @article.user == current_user && @article.destroy
-    #   flash[:success] = 'Article has been deleted'
-    #   redirect_to articles_path
-    # else
-    #   flash[:danger] = 'You can only delete your own article.'
-    #   redirect_to root_path
-    # end
 
   protected
 
